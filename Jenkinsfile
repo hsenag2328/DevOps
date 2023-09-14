@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Code from GitHub') {
             steps {
                 // Checkout your application code from GitHub.
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/hsenag2328/mygitproject.git'
             }
         }
 
